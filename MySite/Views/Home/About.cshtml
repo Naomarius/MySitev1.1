@@ -69,6 +69,10 @@
                 $(this).parent().children(".transition").show(500);
                 $(this).addClass("sectionSel");
             }
+            else if (str == "block") {
+                $(".transition").hide(250);
+                $(".btnTransition").removeClass("sectionSel");
+            }
         });
     </script>
 }

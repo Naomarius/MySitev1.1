@@ -84,3 +84,28 @@ C:\Users\z777ik\Desktop\Projects\Web\MVC 4 Site\MySitev1.1\MySite\bin\System.Web
 C:\Users\z777ik\Desktop\Projects\Web\MVC 4 Site\MySitev1.1\MySite\obj\Debug\MySite.csprojResolveAssemblyReference.cache
 C:\Users\z777ik\Desktop\Projects\Web\MVC 4 Site\MySitev1.1\MySite\obj\Debug\MySite.dll
 C:\Users\z777ik\Desktop\Projects\Web\MVC 4 Site\MySitev1.1\MySite\obj\Debug\MySite.pdb
+C:\GitHubRepositories\MySitev1.1\MySite\bin\MySite.dll.config
+C:\GitHubRepositories\MySitev1.1\MySite\bin\MySite.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\MySite.pdb
+C:\GitHubRepositories\MySitev1.1\MySite\bin\Antlr3.Runtime.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\EntityFramework.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\Microsoft.Web.Infrastructure.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\Newtonsoft.Json.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Mvc.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Optimization.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Providers.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Razor.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.Deployment.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.Razor.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\WebGrease.dll
+C:\GitHubRepositories\MySitev1.1\MySite\bin\EntityFramework.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\Newtonsoft.Json.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Mvc.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.Razor.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.Deployment.xml
+C:\GitHubRepositories\MySitev1.1\MySite\bin\System.Web.WebPages.Razor.xml
+C:\GitHubRepositories\MySitev1.1\MySite\obj\Debug\MySite.csprojResolveAssemblyReference.cache
+C:\GitHubRepositories\MySitev1.1\MySite\obj\Debug\MySite.dll
+C:\GitHubRepositories\MySitev1.1\MySite\obj\Debug\MySite.pdb
