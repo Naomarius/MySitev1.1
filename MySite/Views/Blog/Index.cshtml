@@ -1,0 +1,75 @@
+﻿@model IEnumerable<MySite.Models.Post>
+
+@{
+    ViewBag.Title = "Blog::Nao.Tv";
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="row-fluid">
+
+            <div class="span8">
+                @foreach (var item in Model)
+                {
+                    <div>
+                        <h3>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </h3>
+                        <div>
+                            @Html.Raw(item.Body)
+                        </div><br />
+                        <span style="padding-left: 25px;">
+                            @Html.DisplayFor(modelItem => item.User.UserName)
+                        </span>
+                        <span style="padding-left: 25px;">
+                            @Html.DisplayFor(modelItem => item.DateTime)
+                        </span>
+                        <span style="padding-left: 25px;">
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                        </span>
+                    </div>
+                }
+            </div>
+
+            <div class="span4 sidebarNav">
+                <div class="sectionNav">
+                    <h3 class="btnTransition">Search Date</h3>
+                    <div class="transition">
+                        <p>enter tree date selection here</p>
+                    </div>
+                </div>
+                <div class="sectionNav">
+                    <h3 class="btnTransition">Search Tags</h3>
+                    <div class="transition">
+                        <p>enter tags here</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(".nav li").eq(1).addClass("active");
+        });
+
+        $(".btnTransition").click(function () {
+            var str = $(this).parent().children(".transition").css("display");
+            if (str == "none") {
+                $(".transition").hide(250);
+                $(".btnTransition").removeClass("sectionSel");
+                $(this).parent().children(".transition").show(500);
+                $(this).addClass("sectionSel");
+            }
+        });
+    </script>
+}

@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Nao.Tv";
+}
+
+<h2>About</h2>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+
+            <div class="span8">
+                <br />
+                <p>My name is Jerrad Zonna and I am a Software Developer. </p>
+                <p>The purpose of this site is to learn new technologies and apply that knowledge. I plan to make this site into a functioning portfolio site that will include:</p>
+                <ul>
+                    <li>Gallery of images from Flicker so show off photography</li>
+                    <li>Active Blog of programming and second one of gaming</li>
+                    <li>Streaming links via Twitch and or Youtube video content</li>
+                </ul>
+            </div>
+
+            <div class="span4 sidebarNav">
+                <div class="sectionNav">
+                    <h3 class="btnTransition">Social</h3>
+                    <div class="transition">
+                        <div class="socialNet">
+                            <a href="http://www.facebook.com/z777ik"><img src="/images/facebook.png" width="32" height="32" alt="Facebook" title="Facebook"></a>
+                            <a href="http://plus.google.com/109032671101315704265"><img src="/images/google_plus.png" width="32" height="32" alt="Google+" title="Google+"></a>
+                            <a href="http://www.twitter.com/z777ik"><img src="/images/twitter.png" width="32" height="32" alt="Twitter" title="Twitter"></a>
+                            <a href="http://www.raptr.com/z777ik"><img src="/images/raptr.png" width="32" height="32" alt="Raptr" title="Raptr"></a>
+                            <a href="http://www.steamcommunity.com"><img src="/images/steam.png" width="32" height="32" alt="Steam" title="Steam"></a>
+                            <a href="http://www.skype.com"><img src="/images/skype.png" width="32" height="32" alt="Skype" title="Skype"></a>
+                            <a href="http://www.flicker.com/z777ik"><img src="/images/flickr.png" width="32" height="32" alt="Flickr" title="Flickr"></a>
+                            <a href="http://www.youtube.com/z777ik"><img src="/images/youtube.png" width="32" height="32" alt="Youtube" title="Youtube"></a>
+                            <a href="http://www.vimeo.com/user695536"><img src="/images/vimeo.png" width="32" height="32" alt="Vimeo" title="Vimeo"></a>
+                            <a href="http://www.stumbleupon.com"><img src="/images/stumbleupon.png" width="32" height="32" alt="Stumble Upon" title="Stumble Upon"></a>
+                            <a href="http://www.reddit.com"><img src="/images/reddit.png" width="32" height="32" alt="Reddit" title="Reddit"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sectionNav">
+                    <h3 class="btnTransition">Contact</h3>
+                    <div class="transition">
+                        <p><a href="mailto:Jerzonna@gmail.com">Jerzonna@gmail.com</a></p>
+                        <p>
+                            Address:<br />
+                            3 Willow Tree Garth H<br />
+                            Cockeysville, MD 21030
+                        </p>
+                        <p>(814) 323-1737</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(".nav li").eq(5).addClass("active");
+        });
+
+        $(".btnTransition").click(function () {
+            var str = $(this).parent().children(".transition").css("display");
+            if (str == "none") {
+                $(".transition").hide(250);
+                $(".btnTransition").removeClass("sectionSel");
+                $(this).parent().children(".transition").show(500);
+                $(this).addClass("sectionSel");
+            }
+        });
+    </script>
+}

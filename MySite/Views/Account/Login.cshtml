@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Nao.Tv";
+}
+
+<div class="row-fluid" style="margin-left: 10px;">
+
+    <div class="span6">
+        <form action="@Href("~/Account/Login")" method="post" id="postForm">
+            <h3 style="color: #ff6a00;">Sign-In</h3>
+            <div>Email</div> 
+            <input type="text" name="email"/><br />
+            <div>Password</div> 
+            <input type="text" name="password"/><br />
+            <input type="submit" name="submit" value="Login" />
+        </form>
+    </div>
+
+    <div class="span6">
+        <form action="@Href("~/Account/Register")" method="post" id="postForm">
+            <h3 style="color: #ff6a00;">Register</h3>
+            <div>User Name</div> 
+            <input type="text" name="userName"/><br />
+            <div>Email</div> 
+            <input type="text" name="email"/><br />
+            <div>Password</div> 
+            <input type="text" name="password"/><br />
+            <div>Confirm Password</div> 
+            <input type="text" name="passwordConfirm"/><br />
+            <input type="submit" name="submit" value="Register" />
+        </form>
+    </div>
+
+</div>

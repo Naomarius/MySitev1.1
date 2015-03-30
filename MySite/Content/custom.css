@@ -1,0 +1,139 @@
+﻿
+/* **************************************
+    Custom General Tags    
+
+*****************************************/
+body {
+    background-color: #2E2E2E;
+}
+
+h3 {
+    font-size: large;
+}
+
+h4 {
+    font-size: medium;
+}
+
+footer {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #595758;
+    text-align: center;
+    color: white;
+}
+
+section {
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    color: #ff6a00;
+}
+
+a:hover {
+    color: #ffd800;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Tungsten,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* **************************************
+    ID Classes    
+
+*****************************************/
+
+#header {
+    width: 100%;
+    max-width: 100%;
+    min-width: 452px;
+    height: 133px;
+    overflow: hidden;
+    background: url('/Images/header-bkg.jpg');
+}
+
+#logo {
+    height: 133px;
+    float: left;
+}
+
+#logo > a {
+    width: 244px;
+    height: 133px;
+    display: block;
+    background: url('/Images/Logo.png') no-repeat left center;
+}
+
+#img-left {
+    width: 208px;
+    height: 133px;
+    float: right;
+    background: url('/Images/img-left.png') no-repeat left bottom;
+}
+
+#info {
+    width: 208px;
+    height: 133px;
+    float: right;
+    color: white;
+    background: url('/Images/info.png') repeat-x left center;
+}
+
+#info > div {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* **************************************
+    Custom Classes    
+
+*****************************************/
+
+.mainContainer{
+    border-radius: 10px 10px;
+    background-color: #595758;
+    color: white;
+}
+
+.sidebarNav {
+    border: 3px solid #ff6a00;
+    border-radius: 13px;
+}
+
+.sectionNav {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sectionNav > h3:hover {
+    color: white;
+    background-color: #ff6a00;
+    border-radius: 10px;
+}
+
+.sectionSel {
+    color: white;
+    background-color: #ff6a00;
+    border-radius: 10px;
+}
+
+.sectionNav > h3 {
+    padding-left: 5px;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.transition {
+    display: none;
+    padding-left: 15px;
+}
+
+.socialNet{
+    margin-left: 10px;
+}

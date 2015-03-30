@@ -1,0 +1,16 @@
+﻿@model MySite.Models.Post
+
+@{
+    ViewBag.Title = "Blog::Nao.Tv";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<form action="@Href("~/Blog/DeletePost")" method="post" id="postForm">
+    <p>
+        <input type="hidden" name="id" value="@Model.ID" />
+        <input type="submit" value="Yes I Want to Delete Post" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</form>

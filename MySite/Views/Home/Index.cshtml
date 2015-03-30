@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Nao.Tv";
+}
+
+<div class="row-fluid">
+    <div class="span6">
+        <div class="row-fluid">
+            <div class="span4"><img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c14.14.176.176/s160x160/72354_10151610459483268_1183236570_n.jpg" /></div>
+            <div class="span8">blog roll</div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12"><iframe width="420" height="260" src="http://www.youtube.com/embed/P4fHnGs44sc?feature=player_detailpage"></iframe></div>
+        </div>
+    </div>
+    <div class="span6"><img src="http://farm9.staticflickr.com/8157/7482819116_7e5d329e7c.jpg"/></div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(".nav li").eq(0).addClass("active");
+        });
+    </script>
+}
